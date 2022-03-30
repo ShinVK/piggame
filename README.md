@@ -57,3 +57,4 @@ o próximo jogador;
 
     Foi Adicionado os objetivos e aprendizados do projeto
  "
+ 2. "C0.1 DOCS :books: - Update readme"
