@@ -4,6 +4,7 @@
 Olá, esse projeto é um jogo chamado piggame.
 Inicialmente ele foi feito em html, css e javascript;
 Para fins de aprendizado ele vai ser realizado utilizando a biblioteca React com Redux;
+O objetivo do projeto é executar e construir o projeto baseando-se no TDD
 
 ---------
 
@@ -52,7 +53,7 @@ o próximo jogador;
 
 ### COMMITS
 
- 1. "C0 DOCS :books: - Add Readme.md for project" -m 
- 
+ 1. "C0 DOCS :books: - Add Readme.md for project
+
     Foi Adicionado os objetivos e aprendizados do projeto
  "
