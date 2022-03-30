@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# PIG GAME :pig:
+---------
+### Introdução
+Olá, esse projeto é um jogo chamado piggame.
+Inicialmente ele foi feito em html, css e javascript;
+Para fins de aprendizado ele vai ser realizado utilizando a biblioteca React com Redux;
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---------
 
-## Available Scripts
+### Sobre o Projeto
 
-In the project directory, you can run:
+Esse jogo consiste em um jogo para jogar em dupla, um contra o outro.
+O objetivo do jogo é alcançar um determinado número de pontos ao rolar os dados. 
 
-### `npm start`
+#### Rolar dos dados
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Ao rolar dos dados você pode realizar duas ações:
+  1. Guardar o número e somar ele aos pontos da rodada para posteriormente somar à pontuação total;
+  2. Passar os dados e somar os pontos da rodada à sua pontuação total;
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Mas você deve-se perguntar, por quais motivos eu escolheria passar em vez de somar mais pontos para guardar depois?
+O motivo seria que ao rolar o dado e o número dado for o número 1, você perde seus pontos da rodada e a vez, passando a vez
+o próximo jogador;
 
-### `npm test`
+### Bibliotecas utilizadas
+  1. React
+  2. Redux
+  3. Redux-thunk
+  4. Redux-devtools-extension
+  5. MaterialUi
+  6. Eslint 
+  7. Jest
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Aprendizados
 
-### `npm run build`
+  1. Recordar a utilização do redux-thunk
+  2. Melhorar o aprendizado em relação à classes
+  3. Tentar criar o projeto se baseando no TDD
+  4. Melhorar a lógica de programação
+  5. Fazer commits padronizados 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Histórico
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  #### 30/03/2022
+  1. O projeto foi iniciado
+  2. Criação do package.json
+  3.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### Problemas e Soluções encontradas durante o processo
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### COMMITS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 1. "C0 DOCS :books: - Add Readme.md for project" -m 
+ 
+    Foi Adicionado os objetivos e aprendizados do projeto
+ "
