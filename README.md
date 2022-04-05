@@ -22,6 +22,13 @@ Mas você deve-se perguntar, por quais motivos eu escolheria passar em vez de so
 O motivo seria que ao rolar o dado e o número dado for o número 1, você perde seus pontos da rodada e a vez, passando a vez
 o próximo jogador;
 
+### Testes necessários
+
+Basicamente o programa vai ter apenas uma tela, onde essa tela já é a tela de jogo
+
+##### Itens da tela Inicial
+
+
 ### Bibliotecas utilizadas
   1. React
   2. Redux
@@ -52,7 +59,31 @@ o próximo jogador;
 
 ### COMMITS
 
- 1. "C0 DOCS :books: - Add Readme.md for project" -m 
+  1. "C0 DOCS :books: - Add Readme.md for project" -m 
  
     Foi Adicionado os objetivos e aprendizados do projeto
  "
+
+
+### TESTES
+#### construção
+  1.  Verifica se tem os itens certos na tela
+    1.1 Tem que ter a pontuação Atual dos dois players
+    1.2 Tem que ter a pontuação total dos dois players
+    1.3 Botão de new game, roll dice e hold.
+
+#### Funcionalidades
+  2. Verifica o funcionamento do app
+    2.1 Ao clicar no new game o dado aparece
+    2.2 Ao clicar no roll dice o dado é rolado e a pontuação é somada a pontuação atual
+    2.3 Ao rolar o dado e o resultado do dado for 1, o turno muda de jogador
+    2.4 Ao clicar no botao hold, a pontuacao atual é somada a pontuação total e o turno muda para o outro jogador
+    2.5 Ao atingir 50 pontos o jogo acaba e mostra o vencedor
+    
+
+
+
+### LOGS
+  1. Inicialmente foi feito o estudo sobre como a aplicação vai funcionar
+  2. Quais itens devem ter na tela, componentes 
+  3. Funcionamento
