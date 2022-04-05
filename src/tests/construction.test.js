@@ -1,10 +1,9 @@
 /* eslint-disable testing-library/no-unnecessary-act */
 import React from 'react';
-import userEvent from '@testing-library/user-event';
 // import { fireEvent, screen } from '@testing-library/dom';
 import App from '../App';
 import { act } from 'react-dom/test-utils';
-import { render, fireEvent, screen } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 
 // import { renderWithRouterAndStore } from './testConfig';
 
@@ -26,6 +25,7 @@ describe('1. CONTRUÇÃO - os elementos requeridos devem estar na página', () =
     const result = await screen.findByTestId(SCORE_ACTUAL_PLAYER1);
     expect(result).toBeInTheDocument();
   });
+
   it('Verifica se existe a pontuação ATUAL do player 2', async () => {
     act(() => {
       render(<App />);
@@ -33,6 +33,7 @@ describe('1. CONTRUÇÃO - os elementos requeridos devem estar na página', () =
     const result = await screen.findByTestId(SCORE_ACTUAL_PLAYER2);
     expect(result).toBeInTheDocument();
   });
+
   it('Verifica se existe a pontuação TOTAL do player 1', async () => {
     act(() => {
       render(<App />);
@@ -40,6 +41,7 @@ describe('1. CONTRUÇÃO - os elementos requeridos devem estar na página', () =
     const result = await screen.findByTestId(SCORE_TOTAL_PLAYER1);
     expect(result).toBeInTheDocument();
   });
+
   it('Verifica se existe a pontuação TOTAL do player 2', async () => {
     act(() => {
       render(<App />);
@@ -47,9 +49,29 @@ describe('1. CONTRUÇÃO - os elementos requeridos devem estar na página', () =
     const result = await screen.findByTestId(SCORE_TOTAL_PLAYER2);
     expect(result).toBeInTheDocument();
   });
+
+  it('Verifica se existe o botão NEW GAME', async () => {
+    act(() => {
+      render(<App />);
+    });
+    const result = await screen.findByTestId(BUTTON_NEW_GAME);
+    expect(result).toBeInTheDocument();
+  });
+
+  it('Verifica se existe o botão ROLL DICE', async () => {
+    act(() => {
+      render(<App />);
+    });
+    const result = await screen.findByTestId(BUTTON_ROLL_DICE);
+    expect(result).toBeInTheDocument();
+  });
+
+  it('Verifica se existe o botão HOLD', async () => {
+    act(() => {
+      render(<App />);
+    });
+    const result = await screen.findByTestId(BUTTON_HOLD_SCORE);
+    expect(result).toBeInTheDocument();
+  });
 });
-
-
-
-
 

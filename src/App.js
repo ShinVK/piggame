@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import ScreenPlayer from './components/ScreenPlayer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> pkkkk
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Olá mundo</h2>
+      <div className="container__screens">
+        <ScreenPlayer player={1} />
+        <div>DADO</div>
+        <ScreenPlayer player={2} />
+
+        <button type="button" data-testid="btn-new-game">New Game</button>
+        <button type="button" data-testid="btn-roll-dice">Roll Dice</button>
+        <button type="button" data-testid="btn-hold-score">Hold</button>
+
+      </div>
     </div>
   );
 }
